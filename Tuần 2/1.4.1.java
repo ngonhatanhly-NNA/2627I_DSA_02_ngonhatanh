@@ -1,0 +1,2 @@
+// Vị trí thứ nhất có N cách chọn, Vị trí thứ 2 của N - 1 cách chọn, Vị trí thứ 3 của N - 2 cách chọn
+// Do có sự lặp lại, hoán vị 3 phần tử đã chọn ta có 3! = 6 -> Số cách chọn thực tế là N(N-1)(N-2) / 6
