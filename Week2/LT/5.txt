@@ -1,0 +1,4 @@
+Với vòng ặp trong cùng, vì n / 100, nên lặp 100 lần, luôn + số lần n chia hết
+2 vòng lặp ngoài là n(n+1)/2, tráo k làm thay đổi số lần chạy, tần suất vẫn thế
+
+-> 50n^2 + 50

@@ -1,0 +1,2 @@
+Chặn trên O(n^2), chặn dưới omega(n^2)
+-> Theta(n^2)

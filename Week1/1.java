@@ -3,6 +3,16 @@
 // nhưng hàm find sẽ gây sai xót do chưa thể tham chiếu đến leader gốc 
 
 class Solution {
+	
+	private int[] leader;
+
+    public Solution(int n) {
+        leader = new int[n];
+        for (int i = 0; i < n; i++) {
+            leader[i] = i; // Ban đầu, mỗi phần tử tự là đại diện (leader) của chính nó
+        }
+    }
+	
 	public void union (int p, int q){
 		for (int i = 0; i < leader.length; i++){
 			if (leader[i] == leader[p]){
@@ -11,11 +21,11 @@ class Solution {
 		}
 	}
 	
-	public void find(int p){
-		return leader[i]	
+	public int find(int p){
+		return leader[p];
 	}
 	
-	public void connected(int p, int q){
+	public boolean connected(int p, int q){
 		return find(p) == find(q);
 	}
 	
