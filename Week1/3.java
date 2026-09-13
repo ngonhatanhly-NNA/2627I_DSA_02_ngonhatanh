@@ -5,4 +5,4 @@
 // Quy luật weighted quick union, đê xây được 3 tầng cần 2^3 nút -> nếu (6, 4) -> trước đó chỉ có 7 nút 3 tầng 
 // -> k thỏa mãn
 
-// Đáp án (8, 9) thỏa mãn lập luận của (0, 4) và trỏ về đúng
+// Đáp án (8, 9) thỏa mãn lập luận của (0, 4) và trỏ về đúng, tương tự với (4, 0)
