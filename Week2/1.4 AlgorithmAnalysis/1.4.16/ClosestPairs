@@ -1,0 +1,5 @@
+Cần tìm giá trị có khoảng cách nhỏ nhất |ai-ạj  | min
+
+VD: [1.5, 7.2, 3.1, 3.3, 10.0] -> min 0.2 (2, 3) 
+-> brute-force: O(n^2) duyệt từng mảng
+-> Sort và so sánh -> O(NlogN + N)
