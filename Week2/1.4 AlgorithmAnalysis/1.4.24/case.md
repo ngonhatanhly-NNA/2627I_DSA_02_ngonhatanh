@@ -1,0 +1,1 @@
+1.4.24. Thả trứng. Giả sử bạn có một tòa nhà N tầng và nhiều trứng. Giả sử rằng trứng sẽ vỡ nếu bị thả xuống từ tầng F hoặc cao hơn, và sẽ không bị vỡ nếu thả từ tầng thấp hơn. Đầu tiên, hãy tìm chiến thuật xác định giá trị F sao cho số trứng vỡ là ~lgN khi dùng đến ~lgN lần thả trứng. Sau đó, tìm chiến lược mà chi phí giảm xuống còn ~2lgF.
