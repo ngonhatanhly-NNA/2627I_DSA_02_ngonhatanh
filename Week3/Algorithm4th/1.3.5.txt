@@ -1,0 +1,11 @@
+Phân tích từng bước khi N = 50
+
+- 50 % 2 = 0 - N = 25 -> push 0
+- 25 % 2 = 1 N = 12 -> push 1
+- 12 % 2 = 0 N = 6 -> push 0
+- 6 % 2 = 0 N = 3 -> puush 0
+- 3 -> push 1
+ 1 -> push 1
+- End: N = 0
+
+-> KQ: 110010 (Stack thif ddi nguoc lai)

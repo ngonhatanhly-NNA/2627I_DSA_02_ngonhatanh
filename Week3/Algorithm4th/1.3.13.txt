@@ -1,0 +1,3 @@
+a. Có thể, enqueue và lấy ra ngay lập tức
+b. Không thể xảy ra, deque phải theo thứ tự nhưng 4 lại xuất hiện trước 3, 2, 1
+c, d. Tương tự b

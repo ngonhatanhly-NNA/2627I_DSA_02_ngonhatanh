@@ -1,0 +1,12 @@
+Vòng lặp 1: Lấy lần lượt các phần tử ra khỏi hàng đợi q bằng q.dequeue() và 
+đẩy vào stack.
+
+- Hàng đợi heo cơ chế FIFO -> các phần tử đc lấy theo đúng thứ tự ban đàu
+- Khi đẩy vào st, phân tử ban đầu ở hàng đợi sẽ nằm ở đáy st, phần tử cuối ở đầu
+
+Vòng lặp 2: Lấy ll các phần tử stuwf stack bằng st.pop() và đưa ngược lại vào hàng đợi
+bằng q.enqueue()
+- Các phần tử vào sau cùng được lấy ra 
+- Các phần tử sau cùng vào q -> đc nạp theo thứ tự đảo ngược
+
+-> 2 vòng lặp, đoạn code đảo ngược các thứ tự phần tử trong hàng đợi q
